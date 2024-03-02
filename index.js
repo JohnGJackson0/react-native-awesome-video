@@ -1,7 +1,4 @@
-import { NativeModules } from 'react-native';
-
-const { AwesomeVideo } = NativeModules;
-
-export const getSomething = () => {
-    return 'test'
-};
+function getName() {
+    return "AwesomeVideo";
+}
+export default { getName };
